@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XICO - Punto de Venta Pro</title>
+    <title>XICO - Punto de Venta </title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -71,16 +71,8 @@
         <div id="login-screen" class="absolute inset-0 bg-indigo-900 z-[100] flex flex-col items-center justify-center transition-opacity duration-500">
             <div class="bg-white p-8 rounded-3xl shadow-2xl w-11/12 max-w-sm text-center relative overflow-hidden">
                 
-                <!-- 🔴 ZONA DE LOGO 1: LOGIN -->
-                <div class="bg-indigo-50 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 text-indigo-600 shadow-sm border border-indigo-100">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="w-10 h-10">
-                        <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
-                        <line x1="12" y1="22" x2="12" y2="15.5"></line>
-                        <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
-                        <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
-                        <line x1="12" y1="2" x2="12" y2="8.5"></line>
-                    </svg>
-                </div>
+                <!-- 🔴 ZONA DE LOGO 1: LOGIN (Logo.png - Original) -->
+                <img src="Logo.png" alt="Logo XICO" class="w-24 h-24 mx-auto mb-4 object-contain">
 
                 <h1 class="text-3xl font-black text-slate-800 tracking-tight mb-1">XICO</h1>
                 <p class="text-slate-500 mb-6 text-sm">Ingresa tu usuario y PIN</p>
@@ -107,14 +99,9 @@
 
         <aside id="sidebar" class="bg-indigo-800 text-white w-20 md:w-64 flex flex-col transition-all duration-300 z-40 shadow-xl shrink-0">
             <div class="h-16 flex items-center justify-center md:justify-start md:px-6 border-b border-indigo-700/50">
-                <!-- 🔴 ZONA DE LOGO 2: SIDEBAR -->
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="w-8 h-8 text-indigo-300">
-                    <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
-                    <line x1="12" y1="22" x2="12" y2="15.5"></line>
-                    <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
-                    <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
-                    <line x1="12" y1="2" x2="12" y2="8.5"></line>
-                </svg>
+                <!-- 🔴 ZONA DE LOGO 2: SIDEBAR (logo2.png - Claro) -->
+                <img src="logo2.png" alt="Logo" class="w-8 h-8 object-contain">
+                
                 <span class="ml-3 font-black text-2xl hidden md:block tracking-tight">XICO</span>
             </div>
             
@@ -421,17 +408,13 @@
     <div id="print-area">
         <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid #334155; padding-bottom: 20px; margin-bottom: 30px;">
             <div style="display: flex; align-items: center; gap: 10px;">
-                <!-- 🔴 ZONA DE LOGO 3: IMPRESIÓN -->
-                <svg viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="2.5" style="width: 50px; height: 50px;">
-                    <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
-                    <line x1="12" y1="22" x2="12" y2="15.5"></line>
-                    <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
-                    <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
-                    <line x1="12" y1="2" x2="12" y2="8.5"></line>
-                </svg>
+                
+                <!-- 🔴 ZONA DE LOGO 3: IMPRESIÓN DE HOJA (LogoN.png) -->
+                <img src="LogoN.png" alt="Logo XICO" style="width: 50px; height: 50px; object-fit: contain;">
+                
                 <div>
                     <h1 style="margin: 0; font-size: 28px; font-weight: 900; color: #1e293b; letter-spacing: -1px;">XICO</h1>
-                    <p style="margin: 0; font-size: 14px; color: #64748b;">Punto de Venta Pro</p>
+                    <p style="margin: 0; font-size: 14px; color: #64748b;">Punto de Venta </p>
                 </div>
             </div>
             <div style="text-align: right;">
@@ -486,6 +469,10 @@
     <!-- 🔴 ÁREA OCULTA 2: TICKET PARA VENTAS (Miniprinter) -->
     <div id="ticket-area" style="font-family: monospace; color: black; font-size: 12px; line-height: 1.2;">
         <div style="text-align: center; margin-bottom: 10px;">
+            
+            <!-- 🔴 ZONA DE LOGO 4: IMPRESIÓN DE TICKET (LogoN.png) -->
+            <img src="LogoN.png" alt="Logo XICO" style="width: 40px; height: 40px; object-fit: contain; margin: 0 auto 5px auto; display: block;">
+            
             <h2 style="margin: 0; font-size: 18px; font-weight: bold;">XICO</h2>
             <p style="margin: 2px 0;">Punto de Venta</p>
             <p style="margin: 5px 0 10px 0; font-size: 10px; border-bottom: 1px dashed black; padding-bottom: 5px;">
